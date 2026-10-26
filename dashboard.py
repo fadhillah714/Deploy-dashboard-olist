@@ -18,7 +18,6 @@ import streamlit as st
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Dashboard Analisis E-Commerce",
-    page_icon="📦",
     layout="wide",
     initial_sidebar_state="expanded",
 )
