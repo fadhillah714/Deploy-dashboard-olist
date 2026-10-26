@@ -1,0 +1,27 @@
+# Tema "Warm Burgundy Editorial".
+# Streamlit >= 1.5x merender multiselect & date picker dengan react-aria, dan warna
+# tag / tanggal terpilih diambil dari primaryColor tema. Mengatur tema di sini jauh
+# lebih andal daripada menimpa warna bawaan (#FF4B4B) lewat CSS.
+
+[theme]
+base = "light"
+primaryColor = "#7A0019"
+backgroundColor = "#FFFCF7"          # dipakai popup: kalender, dropdown, tooltip
+secondaryBackgroundColor = "#F3EBDF"
+textColor = "#302623"
+borderColor = "#D9C7BE"
+showWidgetBorder = true
+showSidebarBorder = false
+baseRadius = "0.5rem"
+font = "serif"
+headingFont = "serif"
+
+[theme.sidebar]
+primaryColor = "#7A0019"
+backgroundColor = "#F8F2E8"
+secondaryBackgroundColor = "#FFFCF7"
+textColor = "#302623"
+borderColor = "#D9C7BE"
+
+[client]
+toolbarMode = "minimal"
